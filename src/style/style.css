@@ -8,31 +8,49 @@ body {
     font-family: Poppins, sans-serif;
 }
 
-header {
+.container {
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    padding: 30px 10%;
+    justify-content: space-between;
 }
 
+header {
+    padding-top: 40px;
+    margin-bottom: 60px;
+
+}
 
 .logo {
     cursor: pointer;
-    width: 185px;
+}
+
+.nav-menu {
+    padding: 5px;
+
 }
 
 .nav-list {
     list-style: none;
+
 }
 
 .nav-list li {
     display: inline-block;
-    padding: 20px 25px;
+
 }
 
 .link {
     text-decoration: none;
     color: #2F281E;
     font-family: Poppins, sans-serif;
+    margin: 0 25px;
+}
+
+.menubuttons {
+    padding-bottom: 30px;
 }
 
 .signinbutton {
@@ -47,8 +65,8 @@ header {
     padding:11px 23px;
     text-decoration:none;
     transition: all .3s ease 0s;
-
 }
+
 .signinbutton:hover {
     background-color:#FF9900;
 }
@@ -81,14 +99,21 @@ header {
     top:1px;
 }
 
-.container {
-    width: 100%;
-    max-width: 1125px;
-    margin: 0 auto;
-}
-
 .hero-title {
     font-size: 44px;
-    line-height: 80px;
-    padding-bottom: 35px;
+    line-height: 55px;
+    padding-top: 50px;
+}
+
+h1 {
+ font-size: 44px;
+}
+p {
+    padding: 30px 20px 0 0;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.hero-image {
+    justify-content: right;
 }
